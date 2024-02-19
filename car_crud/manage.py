@@ -2,7 +2,6 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-from elastic_conf.document import connect_to_elastic, indexing
 
 
 def main():

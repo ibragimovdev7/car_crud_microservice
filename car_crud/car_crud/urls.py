@@ -24,8 +24,7 @@ from drf_yasg import openapi
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('api/', include('crud.urls')),
-    path('apis/', include(router.urls))
+    path('api/', include(router.urls))
 ]
 
 
